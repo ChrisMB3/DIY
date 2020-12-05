@@ -1,9 +1,9 @@
 from Block import Block
 blockchain = []
 
-genesis_block = Block("Block1", ["Block2"])
+first_block = Block("Block1", ["Block2"])
 
-second_block = Block(genesis_block.block_hash, ["Block3"])
+second_block = Block(first_block.block_hash, ["Block3"])
 
 third_block = Block(second_block.block_hash, ["Block4"])
 

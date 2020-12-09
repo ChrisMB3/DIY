@@ -1,5 +1,3 @@
-﻿ # You do not have to restart the computer after you run the Set-SMBServerConfiguration cmdlet.
-  
     # Detect SMB 1
 Get-SmbServerConfiguration | Select EnableSMB1Protocol
     # Disable SMB 1
